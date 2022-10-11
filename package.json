@@ -75,10 +75,14 @@
     "@storybook/react": "^6.5.7",
     "@storybook/testing-library": "^0.0.11",
     "babel-plugin-named-exports-order": "^0.0.2",
+    "cross-env": "^7.0.3",
     "msw": "^0.42.0",
     "msw-storybook-addon": "^1.6.3",
     "prop-types": "^15.8.1",
     "react-test-renderer": "^18.2.0",
     "webpack": "^5.73.0"
+  },
+  "msw": {
+    "workerDirectory": "public"
   }
 }

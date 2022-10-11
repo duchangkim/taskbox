@@ -1,8 +1,8 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+test('Taskbox 타이틀이 정상적으로 렌더 되었는가', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  const taskBoxTitle = screen.getByText(/Taskbox/i);
+  expect(taskBoxTitle).toBeInTheDocument();
 });
