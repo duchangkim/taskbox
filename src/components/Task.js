@@ -29,7 +29,7 @@ export default function Task({
           readOnly={true}
           name="title"
           placeholder="Input title"
-          style={{ textOverflow: "ellipsis" }}
+          style={{ background: 'green', textOverflow: "ellipsis" }}
         />
       </label>
 
